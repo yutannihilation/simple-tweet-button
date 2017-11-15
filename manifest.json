@@ -3,7 +3,7 @@
     "name": "Tweet",
     "version": "1.0",
     "description": "Tweet current web page",
-    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+    "homepage_url": "https://github.com/yutannihilation/simple-tweet-button",
     "icons": {
         "48": "icons/tweet-48.png"
     },

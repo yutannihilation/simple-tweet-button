@@ -10,9 +10,10 @@
     "permissions": [
         "activeTab"
     ],
+    "background": {
+        "scripts": ["tweet.js"]
+    },
     "browser_action": {
-        "default_icon": "icons/tweet-32.png",
-        "default_title": "Tweet",
-        "default_popup": "popup/tweet.html"
+        "default_icon": "icons/tweet-32.png"
     }
 }

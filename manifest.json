@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Tweet",
+    "version": "1.0",
+    "description": "Tweet current web page",
+    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+    "icons": {
+        "48": "icons/tweet-48.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icons/tweet-32.png",
+        "default_title": "Tweet",
+        "default_popup": "popup/tweet.html"
+    }
+}
